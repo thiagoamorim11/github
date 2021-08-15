@@ -1,122 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goldman</title>
+    <title>Github</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="img/icone.png">
 </head>
 
 <body>
-    <div class="goldman">
-        <p>Goldman</p>
-    </div>
-    <div class="box">
-        <p class="comandos">Comandos</p>
-        <p>
-            <ul>
-                <li><a href="file:///E:/goldman/github/index.html#config">Config --global</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#init">Init</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#clone">Clone</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#add">Add</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#commit">Commit</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#pull">Pull</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#push">Push</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#branch">Branch</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#checkout">Checkout</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#merge">Merge</a></li>
-                <li><a href="file:///E:/goldman/github/index.html#status">Status</a></li>
-            </ul>
-        </p>
-    </div>
-    <div class="box">
-        <p>Instalando o Git</p>
-        <p><img src="#" alt="Foto do site de download do Git"></p>
-        <p>
-            <a href="https://git-scm.com/downloads" target="_blank">DOWNLOAD</a>
-        </p>
-    </div>
-    <div class="box">
-        <p id="config">Git Config</p>
-        <p>Utilizaremos logo após abrir o cmd (Tecla windows + r -> Digite "cmd" + enter) para configurar o nome de usuário (git config --global user.name "nome") e email (git config --global user.email "email")</p>
-        <p><img src="img/git config.png" alt="Foto do tutorial em imagem do comando git Config"></p>
-    </div>
-    <div class="box">
-        <p id="init">Git Init</p>
-        <p>Inicializa a ferramenta git no repositório selecionado, criando uma pasta .git</p>
-        <p><img src="img/git init.png" alt="Foto do tutorial em imagem do comando git Init"></p>
-    </div>
-    <div class="box">
-        <p id="clone">Git Clone</p>
-        <p>O git clone é usado sobretudo para apontar para um repositório existente e fazer um clone ou cópia deste repositório no novo diretório, em outro local. Para teste, iremos apagar a pasta teste e criá-la com o git clone</p>
-        <p><img src="img/git clone.png" alt="Foto do tutorial em imagem do comando git clone"></p>
-    </div>
-    <div class="box">
-        <p id="add">Git Add</p>
-        <p>O comando git add pode ser utilizado para adicionar os arquivos que foram modificados ou adicionados.</p>
-        <p><img src="img/git add.png" alt="Foto do tutorial em imagem do comando git add"></p>
-    </div>
-    <div class="box">
-        <p id="commit">Git Commit</p>
-        <p>Utilizado após o git add, o git commit serve para "salvar" as modificações e liberando o uso do git push que falaremos mais abaixo</p>
-        <p><img src="img/git commit.png" alt="Foto do tutorial em imagem do comando git commit"></p>
-    </div>
-    <div class="box">
-        <p id="pull">Git Pull</p>
-        <p>Imagine um código completo no GitHub, caso tenha permissão você poderá "puxar" aquele código para sua pasta com o seguinte comando</p>
-        <p><img src="img/git pull.png" alt="Foto do tutorial em imagem do comando git pull"></p>
-    </div>
-    <div class="box">
-        <p id="push">Git Push</p>
-        <p>Se o git pull "puxa" o git push irá "empurrar", ou seja, alterando algum código, será preciso dar um "git push" para que o mesmo suba para o GitHub</p>
-        <p><img src="img/git push.png" alt="Foto do tutorial em imagem do comando git push"></p>
-    </div>
-    <div class="box">
-        <p id="branch">Git Branch</p>
-        <p>Por padrão, sempre que iniciamos o git, utilizamos ele no "ramo" master, caso você esteja com medo de causar um erro no seu código master, você pode criar outro ramo com o comando:</p>
-        <p><img src="img/git branch.png" alt="Foto do tutorial em imagem do comando git branch"></p>
-    </div>
-    <div class="box">
-        <p id="checkout">Git Checkout</p>
-        <p>Se você reparou no print anterior, quando demos o git status, ele continua na branch master, para trocar para a nova branch utilizaremos o comando git checkout (nome da branch)</p>
-        <p><img src="img/git checkout.png" alt="Foto do tutorial em imagem do comando git Checkout"></p>
-    </div>
-    <div class="box">
-        <p id="merge">Git Merge</p>
-        <p>Não podemos ficar com duas branchs para sempre, eventualmente teremos que voltar para branch master, mas como todas as atualizações estão na branch versao2, precisamos voltar para a master, e juntar as duas branchs</p>
-        <p><img src="img/git merge.png" alt="Foto do tutorial em imagem do comando git merge"></p>
-    </div>
-    <div class="box">
-        <p id="status">Git Status</p>
-        <p>Por fim, utilizamos o git status para mostrar o que está acontecendo com o nosso git, caso haja itens a serem commitados ele nos avisará</p>
-        <p><img src="img/git status.png" alt="Foto do tutorial em imagem do comando git status"></p>
-    </div>
-    <div class="box">
-        <p>GitHub - Repositórios</p>
-        <p>Como fazer: </p>
-        <p><img src="#" alt="Foto do tutorial em imagem do GitHub"></p>
-    </div>
-    <div class="box">
-        <p>GitHub - Privacidade</p>
-        <p>Como fazer: </p>
-        <p><img src="#" alt="Foto do tutorial em imagem do GitHub"></p>
-    </div>
-    <div>
-        <video width="425" height="344" controls>
-            <source src="img/teste.mp4">
-        </video>
-    </div>
+    <header>
+        <div class="position">
+            <p class="goldman">Equipe Goldman</p>
+            <p class="intro">Está com dificuldades nas plataformas Git, GitHub ou GitPages? Aprenda agora mesmo com nosso tutorial.</p>
+            <button>APRENDA AGORA</button>
+        </div>
+    </header>
+    <main>
+        <div class="box">
+            <p>PASSO 1</p>
+            <p>Primeiro de tudo precisamos fazer o download do Git em seu site oficial</p>
+            <img src="#" alt="Download Git">
+        </div>
+        <div class="box">
+            <p id="config">Git Config</p>
+            <p>Utilizaremos logo após abrir o cmd (Tecla windows + r -> Digite "cmd" + enter) para configurar o nome de usuário (git config --global user.name "nome") e email (git config --global user.email "email")</p>
+            <p><img src="img/git config.png" alt="Foto do tutorial em imagem do comando git Config"></p>
+        </div>
+        <div class="box">
+            <p id="init">Git Init</p>
+            <p>Inicializa a ferramenta git no repositório selecionado, criando uma pasta .git</p>
+            <p><img src="img/git init.png" alt="Foto do tutorial em imagem do comando git Init"></p>
+        </div>
+        <div class="box">
+            <p id="clone">Git Clone</p>
+            <p>O git clone é usado sobretudo para apontar para um repositório existente e fazer um clone ou cópia deste repositório no novo diretório, em outro local. Para teste, iremos apagar a pasta teste e criá-la com o git clone</p>
+            <p><img src="img/git clone.png" alt="Foto do tutorial em imagem do comando git clone"></p>
+        </div>
+        <div class="box">
+            <p id="add">Git Add</p>
+            <p>O comando git add pode ser utilizado para adicionar os arquivos que foram modificados ou adicionados.</p>
+            <p><img src="img/git add.png" alt="Foto do tutorial em imagem do comando git add"></p>
+        </div>
+        <div class="box">
+            <p id="commit">Git Commit</p>
+            <p>Utilizado após o git add, o git commit serve para "salvar" as modificações e liberando o uso do git push que falaremos mais abaixo</p>
+            <p><img src="img/git commit.png" alt="Foto do tutorial em imagem do comando git commit"></p>
+        </div>
+        <div class="box">
+            <p id="pull">Git Pull</p>
+            <p>Imagine um código completo no GitHub, caso tenha permissão você poderá "puxar" aquele código para sua pasta com o seguinte comando</p>
+            <p><img src="img/git pull.png" alt="Foto do tutorial em imagem do comando git pull"></p>
+        </div>
+        <div class="box">
+            <p id="push">Git Push</p>
+            <p>Se o git pull "puxa" o git push irá "empurrar", ou seja, alterando algum código, será preciso dar um "git push" para que o mesmo suba para o GitHub</p>
+            <p><img src="img/git push.png" alt="Foto do tutorial em imagem do comando git push"></p>
+        </div>
+        <div class="box">
+            <p id="branch">Git Branch</p>
+            <p>Por padrão, sempre que iniciamos o git, utilizamos ele no "ramo" master, caso você esteja com medo de causar um erro no seu código master, você pode criar outro ramo com o comando:</p>
+            <p><img src="img/git branch.png" alt="Foto do tutorial em imagem do comando git branch"></p>
+        </div>
+        <div class="box">
+            <p id="checkout">Git Checkout</p>
+            <p>Se você reparou no print anterior, quando demos o git status, ele continua na branch master, para trocar para a nova branch utilizaremos o comando git checkout (nome da branch)</p>
+            <p><img src="img/git checkout.png" alt="Foto do tutorial em imagem do comando git Checkout"></p>
+        </div>
+        <div class="box">
+            <p id="merge">Git Merge</p>
+            <p>Não podemos ficar com duas branchs para sempre, eventualmente teremos que voltar para branch master, mas como todas as atualizações estão na branch versao2, precisamos voltar para a master, e juntar as duas branchs</p>
+            <p><img src="img/git merge.png" alt="Foto do tutorial em imagem do comando git merge"></p>
+        </div>
+        <div class="box">
+            <p id="status">Git Status</p>
+            <p>Por fim, utilizamos o git status para mostrar o que está acontecendo com o nosso git, caso haja itens a serem commitados ele nos avisará</p>
+            <p><img src="img/git status.png" alt="Foto do tutorial em imagem do comando git status"></p>
+        </div>
+        <div class="box">
+            <p>GitHub - Repositórios</p>
+            <p>Como fazer: </p>
+            <p><img src="#" alt="Foto do tutorial em imagem do GitHub"></p>
+        </div>
+        <div class="box">
+            <p>GitHub - Privacidade</p>
+            <p>Como fazer: </p>
+            <p><img src="#" alt="Foto do tutorial em imagem do GitHub"></p>
+        </div>
+    </main>
     <footer>
-        <div>
+        <div class="final">
             Equipe Goldman - Copyright &copy;
             <nav>
-                <a href="https://github.com/thiagoamorim11" target="_blank"><img src="img/github.png"></a>
-                <a href="https://github.com/viniciusSg22" target="_blank"><img src="img/github.png"></a>
-                <a href="#" target="_blank"><img src="img/github.png"></a>
-                <a href="#" target="_blank"><img src="img/github.png"></a>
+                <a href="https://github.com/thiagoamorim11" target="_blank"><img src="img/github.png" style="height: 36px; width: 36px;"></a>
+                <a href="https://github.com/viniciusSg22" target="_blank"><img src="img/github.png" style="height: 36px; width: 36px;"></a>
+                <a href="#" target="_blank"><img src="img/github.png" style="height: 36px; width: 36px;"></a>
+                <a href="#" target="_blank"><img src="img/github.png" style="height: 36px; width: 36px;"></a>
             </nav>
         </div>
     </footer>
