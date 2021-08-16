@@ -49,7 +49,7 @@ button {
 }
 
 .box {
-    align-items: stretch;
+    align-items: center;
     background-color: rgba(249, 251, 252, 1);
     display: flex;
     flex-direction: column;
@@ -66,4 +66,12 @@ button {
     position: relative;
     width: auto;
     margin-top: 18px;
+}
+
+.double {
+    display: flex;
+}
+
+.texto {
+    align-items: center;
 }
