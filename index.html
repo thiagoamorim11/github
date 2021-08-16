@@ -20,48 +20,76 @@
     </header>
     <main>
         <div class="box">
-            <p>PASSO 1</p>
+            <p>PASSO 1 - Download</p>
             <p>Primeiro de tudo precisamos fazer o download do Git em seu site oficial</p>
             <img src="#" alt="Download Git">
         </div>
         <div class="box">
-            <p id="config">Git Config</p>
-            <p>Utilizaremos logo após abrir o cmd (Tecla windows + r -> Digite "cmd" + enter) para configurar o nome de usuário (git config --global user.name "nome") e email (git config --global user.email "email")</p>
-            <p><img src="img/git config.png" alt="Foto do tutorial em imagem do comando git Config"></p>
+            <p>PASSO 2 - GitHub Repositórios</p>
+            <p>Como fazer: </p>
+            <p><img src="#" alt="Foto do tutorial em imagem do GitHub"></p>
         </div>
         <div class="box">
-            <p id="init">Git Init</p>
-            <p>Inicializa a ferramenta git no repositório selecionado, criando uma pasta .git</p>
-            <p><img src="img/git init.png" alt="Foto do tutorial em imagem do comando git Init"></p>
-        </div>
-        <div class="box">
-            <p id="clone">Git Clone</p>
+            <p id="clone">PASSO 3 - Git Clone</p>
             <p>O git clone é usado sobretudo para apontar para um repositório existente e fazer um clone ou cópia deste repositório no novo diretório, em outro local. Para teste, iremos apagar a pasta teste e criá-la com o git clone</p>
             <p><img src="img/git clone.png" alt="Foto do tutorial em imagem do comando git clone"></p>
         </div>
         <div class="box">
-            <p id="add">Git Add</p>
-            <p>O comando git add pode ser utilizado para adicionar os arquivos que foram modificados ou adicionados.</p>
+            <p id="config">PASSO 4 - Git Config</p>
+            <p>Com o Git instalado, podemos utilizar a ferramenta Git bash ou o prompt de comando (nesse tutorial utilizarei o cmd, mas sinta-se livre para usar o git bash). Vamos abrir o cmd(Tecla windows + r -> Digite "cmd" + enter) e configurar o nome
+                de usuário (git config --global user.name "nome") e email (git config --global user.email "email")</p>
+            <p><img src="img/git config.png" alt="Foto do tutorial em imagem do comando git Config"></p>
+        </div>
+        <div class="box">
+            <p id="add">PASSO 5 - Code .</p>
+            <p>O comando "code ." é utilizado para abrir o visual studio code, caso não o tenha instalado, crie um arquivo txt chamado index e troque a extensão .txt por .hmtl e você poderá editá-lo com o bloco de notas.</p>
             <p><img src="img/git add.png" alt="Foto do tutorial em imagem do comando git add"></p>
         </div>
         <div class="box">
-            <p id="commit">Git Commit</p>
-            <p>Utilizado após o git add, o git commit serve para "salvar" as modificações e liberando o uso do git push que falaremos mais abaixo</p>
+            <p id="add">PASSO 6 - Git add</p>
+            <p>O comando Git add adiciona arquivos novos ou modificados em seu diretório</p>
+            <p><img src="img/git add.png" alt="Foto do tutorial em imagem do comando git add"></p>
+        </div>
+        <div class="box">
+            <p id="commit">PASSO 7 - Git Commit</p>
+            <p>Com o arquivo index.html adicionado vamos utilizar o git commit como um "ponto de salvamento" onde com vários commits iremos criar a histório da aplicação.</p>
             <p><img src="img/git commit.png" alt="Foto do tutorial em imagem do comando git commit"></p>
         </div>
         <div class="box">
-            <p id="pull">Git Pull</p>
-            <p>Imagine um código completo no GitHub, caso tenha permissão você poderá "puxar" aquele código para sua pasta com o seguinte comando</p>
-            <p><img src="img/git pull.png" alt="Foto do tutorial em imagem do comando git pull"></p>
-        </div>
-        <div class="box">
-            <p id="push">Git Push</p>
-            <p>Se o git pull "puxa" o git push irá "empurrar", ou seja, alterando algum código, será preciso dar um "git push" para que o mesmo suba para o GitHub</p>
+            <p id="push">PASSO 8 - Git Push</p>
+            <p>Com os commits devidamente feitos é hora de colocar os arquivos locais no GitHub, para isso usaremos o git push, porém, perceba que acontecerá um erro aqui. Para sairmos desse erro temos duas opções</p>
             <p><img src="img/git push.png" alt="Foto do tutorial em imagem do comando git push"></p>
         </div>
         <div class="box">
+            <p>Tutorial em vídeo</p>
+            <video width="320px" height="240px" controls>
+                <source src="img/tutorial.mp4">
+            </video>
+        </div>
+        <div class="box">
+            <p>Outros comandos</p>
+            <nav>
+                <a href="#">Git Init</a>
+                <a href="#">Git Pull</a>
+                <a href="#">Git Branch</a>
+                <a href="#">Git Checkout</a>
+                <a href="#">Git Merge</a>
+                <a href="#">Git Status</a>
+            </nav>
+        </div>
+        <div class="box">
+            <p id="init">Git Init</p>
+            <p>O Git init é usado para criar a pasta .git em um repositório de sua escolha, só será preciso ficar atento se o mesmo repositório está presente no GitHub para que não haja erro na hora de usar o git push</p>
+            <p><img src="img/git init.png" alt="Foto do tutorial em imagem do comando git Init"></p>
+        </div>
+        <div class="box">
+            <p id="pull">Git Pull</p>
+            <p>Com o git push nós "empurramos" nosso código do local para o GitHub. Já o git pull será responsável por pegar do GitHub para a máquina local um arquivo que foi edital por outra pessoa</p>
+            <p><img src="img/git pull.png" alt="Foto do tutorial em imagem do comando git pull"></p>
+        </div>
+        <div class="box">
             <p id="branch">Git Branch</p>
-            <p>Por padrão, sempre que iniciamos o git, utilizamos ele no "ramo" master, caso você esteja com medo de causar um erro no seu código master, você pode criar outro ramo com o comando:</p>
+            <p>Por padrão, sempre que iniciamos o git, utilizamos ele no "ramo" master, caso você esteja com medo de causar um erro no seu código master, você pode criar outro ramo com o comando git branch "nome da branch"</p>
             <p><img src="img/git branch.png" alt="Foto do tutorial em imagem do comando git branch"></p>
         </div>
         <div class="box">
@@ -78,16 +106,6 @@
             <p id="status">Git Status</p>
             <p>Por fim, utilizamos o git status para mostrar o que está acontecendo com o nosso git, caso haja itens a serem commitados ele nos avisará</p>
             <p><img src="img/git status.png" alt="Foto do tutorial em imagem do comando git status"></p>
-        </div>
-        <div class="box">
-            <p>GitHub - Repositórios</p>
-            <p>Como fazer: </p>
-            <p><img src="#" alt="Foto do tutorial em imagem do GitHub"></p>
-        </div>
-        <div class="box">
-            <p>GitHub - Privacidade</p>
-            <p>Como fazer: </p>
-            <p><img src="#" alt="Foto do tutorial em imagem do GitHub"></p>
         </div>
     </main>
     <footer>
